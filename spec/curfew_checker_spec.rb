@@ -3,7 +3,11 @@ describe "#simple_curfew_checker" do
 
   it "should tell you if you're in trouble if it's 11" do 
     expect(simple_curfew_checker(11)).to eq("You're in trouble! Better get home quick!")
-  end
+    
+    if time == 11
+      puts "You're in trouble! Better get home quick!"
+    else time > 11
+    
 
   it "should tell you if you're in trouble if it's later than 11" do 
     expect(simple_curfew_checker(12)).to eq("You're in trouble! Better get home quick!")

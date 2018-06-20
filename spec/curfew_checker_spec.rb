@@ -1,3 +1,16 @@
+if  time >= 11
+  puts "You're in troule! Better come get home quick!"
+end
+
+
+
+
+
+
+
+
+
+
 require_relative '../lib/curfew_checker.rb'
 describe "#simple_curfew_checker" do
 
